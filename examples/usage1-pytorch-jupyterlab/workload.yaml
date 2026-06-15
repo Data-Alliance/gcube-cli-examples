@@ -1,0 +1,11 @@
+description: "gcube-pytorch-jupyter"
+cuda: "12080"
+sharedMemory: 4
+
+containers:
+  - containerImage: "ghcr.io/username/gcube-pytorch-jupyter:latest"
+    repo: ghcr.io
+    port: 8888
+
+gpuSpecs:
+  - gpuCode: "101"

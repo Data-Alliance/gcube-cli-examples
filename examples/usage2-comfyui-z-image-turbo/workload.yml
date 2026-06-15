@@ -1,0 +1,13 @@
+name: comfyui-zimage-turbo
+description: ComfyUI + Z-Image-Turbo deployment
+
+image: ghcr.io/username/comfyui-z-image-turbo:latest
+port: 8188
+
+# RTX 5060Ti (code 083, 16GB VRAM)
+gpu: "083"
+# CUDA 12.9
+cuda: 12090
+
+# Web UI lower bound
+maxConnection: 20

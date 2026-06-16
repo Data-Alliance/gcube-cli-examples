@@ -88,8 +88,3 @@ on:
   push:
     branches: [main]
 ```
-
-
-## 문의
-
-본 repo 의 [Issues](https://github.com/Data-Alliance/gcube-cli-examples/issues) 로 문의해주세요.
